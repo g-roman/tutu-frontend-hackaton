@@ -1,0 +1,44 @@
+section {
+  margin: 20px;
+}
+nav {
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.e-link {
+  cursor: pointer;
+  color: #0000f1;
+}
+.l-counter,
+.b-input {
+  float: left;
+  margin: 10px;
+  outline: 1px dotted #0000f1;
+  padding: 10px;
+}
+.b-row {
+  overflow: hidden;
+}
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+.b-counter {
+  width: 150px;
+  border: 1px solid #00008B;
+  height: 22px;
+  margin: 10px;
+}
+.b-counter button.dec {
+  float: left;
+}
+.b-counter button.inc {
+  float: right;
+}
+.b-counter div {
+  background: #fffff0;
+  text-align: center;
+}

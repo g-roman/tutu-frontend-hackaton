@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise MVC</title>
+    <link rel="stylesheet" href="css2/bemp/main.css"/>
+</head>
+<body>
+
+<section>
+    <nav>
+        <a href="#">Avia</a> |
+        <a href="#">Trains</a> |
+        <a href="#">Tours</a> |
+        <a href="#">Login</a>
+    </nav>
+</section>
+
+<section>
+    <form action="" id="form-1">
+        <fieldset>
+            <legend>form-1</legend>
+
+            <div class="l-trip_row">
+
+                <div class="b-row">
+                    <div class="b-input">
+                        From
+                        <input type="text" value="" id="from-row-1" placeholder="Moscow"/>
+                        <div class="b-example">
+                            Например: <span class="e-link">Moscow</span>, <span class="e-link">Piter</span>
+                        </div>
+                    </div>
+                    <div class="b-input">
+                        <button>&rarr;</button>
+                    </div>
+                    <div class="b-input">
+                        To
+                        <input type="text" value="" id="to-row-1" placeholder="Piter"/>
+                        <div class="b-example">
+                            Example: <span class="e-link">Piter</span>, <span class="e-link">Moscow</span>
+                        </div>
+                    </div>
+                    <div class="b-input">
+                        Date from
+                        <input type="text" value="" id="date-from-row-1" placeholder="01.01.2014"/>
+                        <div class="b-example">
+                            Example: <span class="e-link">1 jan</span>, <span class="e-link">2 jan</span>
+                        </div>
+                    </div>
+                    <div class="b-input">
+                        Date to
+                        <input type="text" value="" id="date-to-row-1" disabled placeholder="Return date"/>
+                        <div class="b-example">
+                            Example: <span class="e-link">9 jan</span>, <span class="e-link">10 jan</span>
+                        </div>
+                    </div>
+                    <div class="b-input">
+                        <button> Search </button>
+                    </div>
+                </div>
+
+                <div class="b-row">
+                    <div class="l-counter">
+                        <div class="b-counter">
+                            <button class="dec"> - </button>
+                            <button class="inc"> + </button>
+                            <div>1 adult</div>
+                        </div>
+                    </div>
+
+                    <div class="l-counter">
+                        <div class="b-counter">
+                            <button class="dec" disabled> - </button>
+                            <button class="inc"> + </button>
+                            <div>0 child</div>
+                        </div>
+                    </div>
+
+                    <div class="l-counter">
+                        <div class="b-counter">
+                            <button class="dec" disabled> - </button>
+                            <button class="inc"> + </button>
+                            <div>0 infant</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="l-trip_add_row">
+                <div class="b-row">
+                    <hr/>
+                    <button> + Add trip row </button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</section>
+
+<section>
+    <div class="b-row">
+        Сюда выдаем мок-выдачу, в зависимости от специфики вашего проекта (общая суть, без детализации). Авиа, туры и поезда.
+    </div>
+</section>
+
+<section>
+    <footer>
+        &copy; 2014, Tutu.ru
+    </footer>
+</section>
+
+
+</body>
+</html>

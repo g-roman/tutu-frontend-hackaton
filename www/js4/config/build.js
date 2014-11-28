@@ -1,0 +1,30 @@
+({
+	baseUrl: '../src',
+	appDir: '',
+	mainConfigFile: 'config.js',
+	dir: '../bld',
+	modules: [
+		{name: "app/avia/require/main"},
+		{name: "app/avia/require/fare_rules"},
+		{name: "app/train/require/main"},
+		{name: "app/tours/require/wizard"},
+		{name: "app/tours/require/confirm"},
+		{name: "app/tours/require/country"},
+		{name: "app/tours/require/hotel"},
+		{name: "app/tours/require/main"},
+		{name: "app/tours/require/message"},
+		{name: "app/tours/require/order"},
+		{name: "app/tours/require/resort"},
+		{name: "app/tours/require/search"},
+		{name: "app/tours/require/success"},
+		{name: "app/tours/require/content/landing_page"}
+	],
+	//optimize: "none",
+	optimize: "uglify2",
+	generateSourceMaps: true,
+	preserveLicenseComments: false,
+	useStrict: false,
+	removeCombined: true,
+	logLevel: 4,
+	cjsTranslate: false
+})
